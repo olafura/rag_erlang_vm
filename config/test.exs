@@ -6,4 +6,3 @@ config :rag_erlang_vm, RagErlangVm.Repo,
   password: "postgres",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
-
