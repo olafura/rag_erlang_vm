@@ -28,7 +28,8 @@ defmodule RagErlangVm.MixProject do
       {:exla, "~> 0.9.1"},
       {:bumblebee, "~> 0.6.0"},
       {:text_chunker, "~> 0.3.1"},
-      {:rag, "~> 0.2.3"}
+      {:rag, "~> 0.2.3"},
+      {:observer_cli, "~> 1.8", only: :dev}
     ]
   end
 end
