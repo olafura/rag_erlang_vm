@@ -6,6 +6,7 @@ defmodule RagErlangVm.Application do
   @impl true
   def start(_type, _args) do
     children = [
+      RagErlangVm.Repo,
       {Nx.Serving,
        [
          serving: RagErlangVm.Rag.Serving.build_llm_serving(),
